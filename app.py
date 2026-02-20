@@ -6,7 +6,7 @@ import joblib
 model_filename = 'random_forest_model.pkl'
 x_encoded_columns_filename = 'X_encoded_columns.pkl'
 
-model = joblib.load(random_forest_model_compressed.pkl)
+model = joblib.load('random_forest_model_compressed.pkl')
 loaded_X_encoded_columns = joblib.load(x_encoded_columns_filename)
 
 # --- 2. Streamlit UI Setup ---
